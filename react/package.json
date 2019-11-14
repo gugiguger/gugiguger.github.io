@@ -24,7 +24,8 @@
         "build": "npm-run-all build-css build-js",
         "postbuild": "rm -r ../static ../favicons && mv build/* ../",
         "eject": "react-scripts eject",
-        "predeploy": "npm run build"
+        "predeploy": "npm run build",
+        "deploy": "git add .. && git commit -m \"Deployment\" && git push"
     },
     "homepage": "https://gugiguger.github.io",
     "browserslist": [
