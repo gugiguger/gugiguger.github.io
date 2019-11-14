@@ -1,0 +1,38 @@
+.toolbar {
+  padding: 5px 7px 7px;
+  position: relative;
+  top: 2px;
+  left: 3px;
+  width: calc(100% - 9px); }
+  .toolbar:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .toolbar .title {
+    float: right;
+    color: black;
+    background: white;
+    font-size: 14px;
+    margin-top: 2px;
+    min-width: 160px; }
+    .toolbar .title img {
+      max-height: 20px;
+      max-width: 25px;
+      width: auto;
+      margin-right: 2px; }
+    .toolbar .title span {
+      padding-top: 4px; }
+    .toolbar .title img,
+    .toolbar .title span {
+      display: inline-block;
+      vertical-align: middle; }
+  .toolbar button {
+    font-weight: 400;
+    float: left;
+    margin-left: 5px;
+    border-radius: 50%; }
+    .toolbar button.disabled {
+      pointer-events: none;
+      cursor: auto;
+      color: #3a4873;
+      text-shadow: 1px 1px #fff; }
