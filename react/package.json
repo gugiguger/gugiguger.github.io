@@ -22,7 +22,7 @@
         "start": "npm-run-all -p watch-css start-js",
         "build-js": "react-scripts build",
         "build": "npm-run-all build-css build-js",
-        "postbuild": "rm -r ../static ../favicons && mv build/* ../",
+        "postbuild": "rm -r ../static ../favicons ../precache-manifest* && mv build/* ../",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
         "deploy": "git add .. && git commit -m \"Deployment\" && git push"
