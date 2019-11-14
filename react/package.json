@@ -27,7 +27,6 @@
         "predeploy": "npm run build",
         "deploy": "git add .. && git commit -m \"Deployment\" && git push"
     },
-    "homepage": "https://gugiguger.github.io",
     "browserslist": [
         ">0.2%",
         "not dead",
