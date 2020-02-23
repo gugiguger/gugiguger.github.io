@@ -42,24 +42,33 @@ const contact = {
 const work = [
     {
         title: "Tekatekikota",
-        url: "",
-        image: "",
-        copy: "An app that I set it up with my friend"
+        url: "https://github.com/gugiguger/tekatekikota",
+        copy:
+            "A simple react app that walks players through a scavenger hunt I set up in Jakarta, Indonesia as part of airbnb experience"
     },
     {
-        title: "Social Network",
-        url: "//Social Network",
-        copy: "I did this project when I joined the bootcamp."
+        title: "Class of '85",
+        url: "https://github.com/gugiguger/Classof85",
+        copy:
+            "Class of 85 is social network app for students who wants to keep in touch within their classmates after graduation. I built it with BIOS theme style for the nostalgic look."
+    },
+    {
+        title: "This is Home",
+        url: "https://thisishome.herokuapp.com",
+        copy:
+            "A simple react app that walks player through a choose adventure game with the plot of journey of migrants from Germany to Syria."
+    },
+    {
+        title: "Plant Marriage Petition",
+        url: "https://github.com/gugiguger/plantmarriagepetition",
+        copy:
+            "All through out history men and women have had their heart broken by another person. Plants was there for them as a comfort and never judged their appearance. It's only natural that we would fall in love with plants. Love is love. Sign the petition and make plants marriage legal today!"
     },
     {
         title: "Gugergram",
-        url: "//Gugergram",
-        copy: "Instagram like"
-    },
-    {
-        title: "Connect 4",
-        url: "//Connect 4",
-        copy: "A game that I built."
+        url: "https://github.com/gugiguger/gugergram",
+        copy:
+            "Gugergram is an imageboard app for comic lovers who to share their favorites comic's cover within the community they can upload image and also put comment."
     }
 ];
 
